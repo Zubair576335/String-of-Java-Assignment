@@ -1,0 +1,35 @@
+WAP to check if the letter 'e' is present in the word 'Umbrella' ?
+
+
+
+
+public class String6 {
+    public static void main (String[]args)
+    {
+        int flag=0;
+        //int count=0;
+        String str="Umbrella";
+        for(int i=0; i<str.length(); i++)
+        {
+            if(str.charAt(i)== 'e')
+            {
+                flag=1;
+                
+            }
+        }
+           
+                if (flag==1)
+                {
+                    System.out.println("e is present there in the word umbrella");
+                }
+                else
+                {
+                    System.out.println("e is not present in the word umbrella");
+                }
+            
+                
+            
+        }
+    }
+    
+

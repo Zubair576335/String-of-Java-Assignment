@@ -1,0 +1,15 @@
+how do you find the lenght of a string in java ? explain with an example :?
+
+
+
+
+
+public class String3 {
+    
+    public static void main(String []args)
+    {
+        String phrase= "LIFE IS NOT EASY";
+        System.out.println(phrase.length()); // we  can find the length of any given word,phrase or a sentence by using [phrase.length()] method
+
+    }
+}

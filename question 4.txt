@@ -1,0 +1,17 @@
+How do you compare two strings in java ? Give an example ?
+
+
+public class String4 {
+    public static void main(String[]args)
+    {
+        String a1="football";
+        String a2=new String("football");
+        String a3="cricket";
+        System.out.println(a1==a2);         // it compares the refrenece(a1,a2) of the string
+        System.out.println(a2==a3);
+        System.out.println(a1.equals(a2)); // it comapres the value or variable of the string(football)
+        System.out.println(a1.equals(a3));
+
+    }
+    
+}

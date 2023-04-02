@@ -1,0 +1,12 @@
+WAP to find the length of the string "refrigerator". ?
+
+
+
+public class String5 {
+    public static void main (String[]args)
+    {
+        String str="refrigerator";
+        System.out.println(str.length());
+    }
+    
+}

@@ -1,0 +1,15 @@
+WAP to print a simple string program to take input from user ?
+
+
+
+
+public class String1 
+{
+    public static void main (String[]args)
+    {
+        String cars="KOLKATA";
+        System.out.println(cars);
+
+    }
+    
+}
